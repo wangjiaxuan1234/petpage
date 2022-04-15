@@ -1,0 +1,375 @@
+.u-clearfix:after,
+.u-clearfix:before {
+    content: '';
+    display: table;
+}
+
+.u-clearfix:after {
+    clear: both;
+}
+
+.header {
+    background-color: white;
+    height          : 74px;
+}
+
+.header-c {
+    width      : 1140px;
+    height     : 100%;
+    margin     : auto;
+    line-height: 74px;
+}
+
+.header-c .title {
+    font-size: 28px;
+    color    : #111;
+}
+
+.icon-caidan {
+    font-size  : 30px;
+    float      : right;
+    font-weight: bold;
+    color      : #111;
+}
+
+.main-a .gray {
+    background-color: #e5e5e5;
+    height          : 383px;
+}
+
+.female {
+    width     : 881px;
+    height    : 624px;
+    margin    : -315px auto 0;
+    object-fit: cover;
+    display   : block;
+}
+
+.dogcare {
+    width           : 487px;
+    min-height      : 429px;
+    margin          : -174px calc(((100% - 1140px) / 2)) 0 auto;
+    color           : #ffffff;
+    background-color: #df046f;
+    padding         : 30px 50px;
+    position        : relative;
+    box-sizing      : border-box;
+}
+
+.dogcare h2 {
+    font-size  : 30px;
+    font-weight: 700;
+    margin     : 30px;
+    text-align : center;
+}
+
+.dogcare p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size  : 15px;
+    text-align : center;
+    margin-top : 20px;
+}
+
+.dogcare p a {
+    color          : #ffffff;
+    text-decoration: underline;
+}
+
+.dogcare p a:hover {
+    color: #e6e6e6;
+}
+
+.dogcare button {
+    box-sizing      : border-box;
+    height          : 50px;
+    width           : 230px;
+    display         : block;
+    margin          : 40px auto 0;
+    background-color: transparent;
+    border          : 1px solid white;
+    color           : #ffffff;
+    font-size       : 16px;
+    font-weight     : bolder;
+}
+
+.dogcare button:hover {
+    color           : #f17c0e;
+    background-color: #fff;
+}
+
+.articles {
+    width     : 600px;
+    min-height: 429px;
+    margin    : -120px 0 62px calc(((100% - 1140px) / 2));
+    color     : #111;
+    padding   : 30px 50px;
+    position  : relative;
+    box-sizing: border-box;
+}
+
+.articles h2 {
+    font-size  : 32px;
+    font-weight: normal;
+    color      : #df046f;
+}
+
+.articles p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size  : 20px;
+    margin-top : 20px;
+    font-style : italic;
+}
+
+.articles p a {
+    font-size      : 18px;
+    font-style     : normal;
+    text-decoration: underline;
+    font-family    : 'Open Sans', sans-serif;
+}
+
+.articles p:last-child {
+    margin-top: 0;
+}
+
+.main-b .container {
+    width : 1140px;
+    height: 800px;
+    margin: auto;
+}
+
+.main-b .container .purple {
+    background-color: #a552d6;
+    width           : 662px;
+    height          : 334px;
+    margin          : 400px 22px 0 auto;
+}
+
+.main-b .container img {
+    height    : 659px;
+    width     : 583px;
+    margin    : -800px auto 0 76px;
+    object-fit: cover;
+}
+
+.main-b .pattern {
+    height       : 237px;
+    width        : 237px;
+    background   : repeating-linear-gradient(-45deg, transparent, transparent 20px, #df046f 8px, #df046f 28px);
+    border-radius: 50%;
+    margin-top   : -210px;
+    position     : relative;
+}
+
+.main-b .container .circle {
+    height          : 228px;
+    width           : 228px;
+    background-color: #f17c0e;
+    border-radius   : 50%;
+    margin          : -800px 0 0 auto;
+}
+
+.main-b .dogcare {
+    background-color: #fff;
+    color           : #111;
+    width           : 400px;
+    position        : relative;
+    left            : -110px;
+    top             : 40px;
+}
+
+.main-b .dogcare p,
+.main-b .dogcare h2,
+.main-b .dogcare a {
+    text-align : left !important;
+    margin-left: 0 !important;
+    color      : #111 !important;
+}
+
+.main-b button {
+    color : #111;
+    border: 1px solid black;
+}
+
+.main-b button:hover {
+    background-color: black;
+    color           : #fff;
+}
+
+.main-c {
+    background-image   : url(images/ghhh-min.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+.main-c .container-c {
+    width : 1140px;
+    height: 805px;
+    margin: auto;
+}
+
+.main-c .container-c h2 {
+    font-size  : 55px;
+    font-weight: normal;
+    color      : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+.main-c .container-c .phone{
+    font-size  : 45px;
+    text-align: right;
+    font-family: 'PT Sans',sans-serif;
+    font-weight: 900;
+    margin-top: 640px;
+} 
+.main-d {
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+.main-d .container-d{
+    background-color: #df046f;
+    height: 495px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+.main-d .info{
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 400px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.main-d .info-item{
+    height: 50px;
+    margin-top: 70px;
+}
+.main-d .info .iconfont{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.sheet{
+    width: 595px;
+    height: 559px;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin-top: -630px;
+    margin-left: 930px;
+    position: relative;
+    top: -91px;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    padding: 30px 50px 30px 40px;
+    box-sizing: border-box;
+}
+.sheet h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 700;
+    margin: 28px 0 0 10px;
+}
+.sheet .namebox{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.sheet input.box{
+    display: block;
+    width: 100%;
+    padding: 14px 12px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #111;
+    font-size: 15px;
+}
+.sheet input:focus-visible{
+    border: 2px solid black;
+}
+.sheet .textbox{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.sheet textarea{
+    display: block;
+    width: 100%;
+    padding: 14px 12px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #111;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+}
+.sheet .submitbox{
+    background-color: #fff;
+    box-sizing: border-box;
+
+}
+.sheet input.submitbox{
+    font-size: 15px;
+    height:45px;
+    width: 130px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+.sheet input.submitbox:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white
+}
+.main-e{
+    background-color: #111;
+    height: 208px;
+}
+.main-e .container-e{
+    width: 1170px;
+    background-color: #111;
+    color: #fff !important;
+    margin: auto;
+    box-sizing: border-box;
+}
+.main-e .content-e{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 380px;
+    margin-top: 20px;
+}
+.main-e .content-e p{
+    padding-top: 10px;
+    margin: 20px 20px 20px 30px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.bottombox{
+    background-color: #333333;
+    text-align: center;
+    height: 60px;
+}
+.bottombox .bottomboxcontent{
+    width: 1170px;
+    margin: auto;
+}
+.bottombox p{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.bottombox a{
+    color: #f4d1c2;
+    text-decoration: underline;
+}
+.bottombox a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #edb59d;
+}
